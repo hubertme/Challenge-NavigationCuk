@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        hideNavigationBar()
     }
 
     @IBAction func navigateToSecondViewController(_ sender: Any) {
@@ -54,4 +54,12 @@ class ViewController: UIViewController {
         }
     }
     
+}
+
+extension ViewController{
+    private func hideNavigationBar(){
+        navigationController?.navigationBar.shadowImage = UIImage()
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController?.navigationBar.isTranslucent = true
+    }
 }

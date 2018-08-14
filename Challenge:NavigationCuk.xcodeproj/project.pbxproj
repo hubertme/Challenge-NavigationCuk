@@ -14,6 +14,15 @@
 		E42ACE8F21227A6B00518EF9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E42ACE8E21227A6B00518EF9 /* ViewController.xib */; };
 		E42ACE9321227CDE00518EF9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42ACE9121227CDE00518EF9 /* SecondViewController.swift */; };
 		E42ACE9421227CDE00518EF9 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E42ACE9221227CDE00518EF9 /* SecondViewController.xib */; };
+		E42ACE9B2122874600518EF9 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42ACE992122874600518EF9 /* FoodTableViewCell.swift */; };
+		E42ACE9C2122874600518EF9 /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E42ACE9A2122874600518EF9 /* FoodTableViewCell.xib */; };
+		E42ACEA52122921000518EF9 /* NumberHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42ACEA22122920F00518EF9 /* NumberHelper.swift */; };
+		E42ACEA62122921000518EF9 /* EnumHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42ACEA32122920F00518EF9 /* EnumHelper.swift */; };
+		E42ACEA72122921000518EF9 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42ACEA42122921000518EF9 /* ColorHelper.swift */; };
+		E42ACEAE2122922800518EF9 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42ACEA92122922800518EF9 /* Ingredient.swift */; };
+		E42ACEAF2122922800518EF9 /* Bowl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42ACEAA2122922800518EF9 /* Bowl.swift */; };
+		E42ACEB02122922800518EF9 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42ACEAB2122922800518EF9 /* Customer.swift */; };
+		E42ACEB22122922800518EF9 /* IngredientData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42ACEAD2122922800518EF9 /* IngredientData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,15 @@
 		E42ACE8E21227A6B00518EF9 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		E42ACE9121227CDE00518EF9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E42ACE9221227CDE00518EF9 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		E42ACE992122874600518EF9 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		E42ACE9A2122874600518EF9 /* FoodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
+		E42ACEA22122920F00518EF9 /* NumberHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberHelper.swift; sourceTree = "<group>"; };
+		E42ACEA32122920F00518EF9 /* EnumHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumHelper.swift; sourceTree = "<group>"; };
+		E42ACEA42122921000518EF9 /* ColorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
+		E42ACEA92122922800518EF9 /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		E42ACEAA2122922800518EF9 /* Bowl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bowl.swift; sourceTree = "<group>"; };
+		E42ACEAB2122922800518EF9 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		E42ACEAD2122922800518EF9 /* IngredientData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +80,8 @@
 				E42ACE9021227CD400518EF9 /* Second View */,
 				E42ACE7C21227A4E00518EF9 /* AppDelegate.swift */,
 				E42ACE8321227A4F00518EF9 /* Assets.xcassets */,
+				E42ACEA82122921B00518EF9 /* Model */,
+				E42ACEA12122920500518EF9 /* Helper */,
 				E42ACE8521227A4F00518EF9 /* LaunchScreen.storyboard */,
 				E42ACE8821227A4F00518EF9 /* Info.plist */,
 			);
@@ -71,6 +91,7 @@
 		E42ACE9021227CD400518EF9 /* Second View */ = {
 			isa = PBXGroup;
 			children = (
+				E42ACE96212286A400518EF9 /* Table View Cell */,
 				E42ACE9121227CDE00518EF9 /* SecondViewController.swift */,
 				E42ACE9221227CDE00518EF9 /* SecondViewController.xib */,
 			);
@@ -84,6 +105,38 @@
 				E42ACE8E21227A6B00518EF9 /* ViewController.xib */,
 			);
 			path = "Root View";
+			sourceTree = "<group>";
+		};
+		E42ACE96212286A400518EF9 /* Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E42ACE992122874600518EF9 /* FoodTableViewCell.swift */,
+				E42ACE9A2122874600518EF9 /* FoodTableViewCell.xib */,
+			);
+			path = "Table View Cell";
+			sourceTree = "<group>";
+		};
+		E42ACEA12122920500518EF9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E42ACEA42122921000518EF9 /* ColorHelper.swift */,
+				E42ACEA32122920F00518EF9 /* EnumHelper.swift */,
+				E42ACEA22122920F00518EF9 /* NumberHelper.swift */,
+			);
+			name = Helper;
+			path = ../Helper;
+			sourceTree = "<group>";
+		};
+		E42ACEA82122921B00518EF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E42ACEAA2122922800518EF9 /* Bowl.swift */,
+				E42ACEAB2122922800518EF9 /* Customer.swift */,
+				E42ACEA92122922800518EF9 /* Ingredient.swift */,
+				E42ACEAD2122922800518EF9 /* IngredientData.swift */,
+			);
+			name = Model;
+			path = ../Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +199,7 @@
 			files = (
 				E42ACE9421227CDE00518EF9 /* SecondViewController.xib in Resources */,
 				E42ACE8721227A4F00518EF9 /* LaunchScreen.storyboard in Resources */,
+				E42ACE9C2122874600518EF9 /* FoodTableViewCell.xib in Resources */,
 				E42ACE8F21227A6B00518EF9 /* ViewController.xib in Resources */,
 				E42ACE8421227A4F00518EF9 /* Assets.xcassets in Resources */,
 			);
@@ -159,7 +213,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E42ACE9321227CDE00518EF9 /* SecondViewController.swift in Sources */,
+				E42ACEB02122922800518EF9 /* Customer.swift in Sources */,
+				E42ACE9B2122874600518EF9 /* FoodTableViewCell.swift in Sources */,
+				E42ACEA62122921000518EF9 /* EnumHelper.swift in Sources */,
 				E42ACE7F21227A4E00518EF9 /* ViewController.swift in Sources */,
+				E42ACEAE2122922800518EF9 /* Ingredient.swift in Sources */,
+				E42ACEAF2122922800518EF9 /* Bowl.swift in Sources */,
+				E42ACEA52122921000518EF9 /* NumberHelper.swift in Sources */,
+				E42ACEB22122922800518EF9 /* IngredientData.swift in Sources */,
+				E42ACEA72122921000518EF9 /* ColorHelper.swift in Sources */,
 				E42ACE7D21227A4E00518EF9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
